@@ -1,7 +1,8 @@
 <?php
 $name       = @trim(stripslashes($_POST['name'])); 
 $from       = @trim(stripslashes($_POST['email'])); 
-$subject    = @trim(stripslashes($_POST['subject'])); 
+$city    = @trim(stripslashes($_POST['city']));
+$contact = @trim(stripslashes($_POST['contact']))  
 $message    = @trim(stripslashes($_POST['message'])); 
 $to   		= 'info@suchitraindustries.com'; //replace with your email
 
